@@ -1,3 +1,6 @@
+-- DROP DATABASE joyas;
+-- DROP TABLE inventario;
+
 CREATE DATABASE joyas;
 \c joyas;
 CREATE TABLE inventario 
