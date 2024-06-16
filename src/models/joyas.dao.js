@@ -9,3 +9,5 @@ export const findAll = ({ limits = 10, order_by: orderBy = 'stock_ASC', page = 1
   const formattedQuery = format(`${query} ORDER BY %s %s LIMIT %s OFFSET %s;`, column, sort, limits, offset)
   return db(formattedQuery)
 }
+
+// QUE PASARA??
