@@ -35,3 +35,5 @@ export const obtenerJoyasFiltrosModel = ({ precio_min: precioMin, precio_max: pr
   const queryFormateada = format(`${query};`)
   return db(queryFormateada, values)
 }
+
+//QUE PASARA??
